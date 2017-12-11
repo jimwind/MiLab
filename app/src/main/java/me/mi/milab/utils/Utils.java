@@ -1,10 +1,24 @@
 package me.mi.milab.utils;
 
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
+import android.net.Uri;
+import android.os.Environment;
+import android.provider.MediaStore;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
+
+import java.io.File;
+import java.util.Date;
+
+import me.mi.milab.BuildConfig;
+import me.mi.milab.config.SystemConstants;
+
 /**
- * Created by Administrator on 2017/8/7.
+ * Created by mi.gao on 2017/8/7.
  */
 
 public class Utils {
@@ -30,5 +44,30 @@ public class Utils {
             return myView.getLeft();
         else
             return myView.getLeft() + getRelativeLeft((View) myView.getParent());
+    }
+
+    public static void loge(String msg){
+        if(BuildConfig.DEBUG){
+            Log.e("jimwind", msg);
+        }
+    }
+    public static String takePhoto(Context context, int request_code){
+        String state = Environment.getExternalStorageState();
+        String takePhotoPath = "";
+        if (Environment.MEDIA_MOUNTED.equals(state)) {
+            String fileName = DateUtil.df_filename.format(new Date()) + ".jpg";
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+
+            File file = new File(SystemConstants.CAMERA_DIR);
+            if (!file.exists()) {
+                file.mkdirs();
+            }
+            takePhotoPath = SystemConstants.CAMERA_DIR + fileName;
+
+            intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(new File(takePhotoPath)));
+            intent.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, 1);
+            ((Activity)context).startActivityForResult(intent, request_code);
+        }
+        return takePhotoPath;
     }
 }

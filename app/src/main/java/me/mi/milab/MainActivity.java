@@ -1,28 +1,45 @@
 package me.mi.milab;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
+import android.net.Uri;
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Context;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 
+import java.io.File;
+import java.util.Date;
+
+import me.mi.milab.album.AlbumActivity;
+import me.mi.milab.album.AlbumHelper;
+import me.mi.milab.album.SingleMediaScanner;
+import me.mi.milab.config.SystemConstants;
+import me.mi.milab.utils.DateUtil;
 import me.mi.milab.utils.OKHttpUtils;
+import me.mi.milab.utils.Utils;
 
 public class MainActivity extends AppCompatActivity implements View.OnTouchListener {
     //TODO
-    private int toggle = 1;
-
+    private int toggle = 3;
+    private Context mContext;
     private TransformMatrixView view;
+    private final int REQUEST_CODE_TAKE_PHOTO = 1;
+    private String mTakePhotoFile = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        mContext = this;
         switch (toggle){
             case 0:{
                 setContentView(R.layout.activity_main);
@@ -41,8 +58,28 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
                 setContentView(view);
                 break;
             }
+            case 3:{
+                setContentView(R.layout.activity_start);
+                case3();
+                break;
+            }
 
         }
+    }
+    private void case3(){
+        findViewById(R.id.album).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(mContext, AlbumActivity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.take_picture).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mTakePhotoFile = Utils.takePhoto(mContext, REQUEST_CODE_TAKE_PHOTO);
+            }
+        });
     }
     class TransformMatrixView extends ImageView
     {
@@ -353,5 +390,21 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
             view.invalidate();
         }
         return true;
+    }
+
+    @Override
+    protected void onActivityResult(int req, int resultCode, Intent data) {
+        super.onActivityResult(req, resultCode, data);
+        if(req == REQUEST_CODE_TAKE_PHOTO){
+            if(resultCode == Activity.RESULT_OK){
+                if(!TextUtils.isEmpty(mTakePhotoFile)){
+                    File file = new File(mTakePhotoFile);
+                    if(file.exists()){
+                        new SingleMediaScanner(this, file);
+                        AlbumHelper.getInstance().refresh();
+                    }
+                }
+            }
+        }
     }
 }
