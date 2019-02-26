@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:2:1-51:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\57fbc1940197e9a6b8553b7af23837cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\478a02db5c69ae5e5fb816d15a551272\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\2629dd7c88bc603d791ab98f122bb076\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\5017fc3eb3992756bda7f7a3f535b749\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\d8da134ce1e8513f3e31acfe7175c6d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\065be2c92db998f400f677e21c9a5dcc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\2277439bbf11fa83ae964b93f7bbec7e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\5379bc99d3e6aa4513fb5de0508e6efa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\74859ac06f6eaa338db6a01c19ae06d7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\dda038efb9a7e76aa6ea0a939599ac82\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\35edb921fa68d092d26e3ec2eb9f1966\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\10c94d88b5569a80d6f9dbff513693c7\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml
+		INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml
+		INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml
+		INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\57fbc1940197e9a6b8553b7af23837cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\57fbc1940197e9a6b8553b7af23837cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\478a02db5c69ae5e5fb816d15a551272\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\478a02db5c69ae5e5fb816d15a551272\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\2629dd7c88bc603d791ab98f122bb076\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\2629dd7c88bc603d791ab98f122bb076\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\5017fc3eb3992756bda7f7a3f535b749\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\5017fc3eb3992756bda7f7a3f535b749\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\d8da134ce1e8513f3e31acfe7175c6d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\d8da134ce1e8513f3e31acfe7175c6d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\065be2c92db998f400f677e21c9a5dcc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\065be2c92db998f400f677e21c9a5dcc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\2277439bbf11fa83ae964b93f7bbec7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\2277439bbf11fa83ae964b93f7bbec7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\5379bc99d3e6aa4513fb5de0508e6efa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\5379bc99d3e6aa4513fb5de0508e6efa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\74859ac06f6eaa338db6a01c19ae06d7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\74859ac06f6eaa338db6a01c19ae06d7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\dda038efb9a7e76aa6ea0a939599ac82\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\dda038efb9a7e76aa6ea0a939599ac82\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\35edb921fa68d092d26e3ec2eb9f1966\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\35edb921fa68d092d26e3ec2eb9f1966\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\10c94d88b5569a80d6f9dbff513693c7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\10c94d88b5569a80d6f9dbff513693c7\AndroidManifest.xml:20:5-44
+INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml
+		INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml
+		INJECTED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:11:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.CAMERA
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:13:5-64
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:13:22-62
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:14:5-83
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:14:22-81
+uses-feature#android.hardware.camera
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:15:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:16:3-68
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:16:17-65
+uses-permission#android.permission.RUN_INSTRUMENTATION
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:18:3-76
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:18:20-73
+instrumentation
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:19:3-21:49
+	android:targetPackage
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:21:9-46
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:20:9-62
+application
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:23:5-49:19
+	android:label
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:26:9-45
+	android:allowBackup
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:28:9-40
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:24:9-44
+uses-library#android.test.runner
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:30:9-60
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:30:23-57
+activity#com.musicplus.app.ui.MainActivity
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:32:9-40:20
+	android:label
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:33:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:38:27-74
+activity#com.musicplus.app.ui.ComposeActivity
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:42:9-69
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:42:19-57
+activity#com.musicplus.app.ui.AudioChooserActivity
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:44:9-74
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:44:19-62
+activity#com.musicplus.app.ui.MixAudioActivity
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:46:9-70
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:46:19-58
+service#com.musicplus.app.service.LocalMusicPlayService
+ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:48:9-78
+	android:name
+		ADDED from F:\project\MiLab\musicPlus\src\main\AndroidManifest.xml:48:18-67

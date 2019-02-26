@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="me.mi.milab.MainActivity"
+    android:background="#ffffffff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/goto_market"
+                android:text="去应用市场"
+                android:background="#ff00ff"
+                android:layout_marginTop="30dp"
+                android:padding="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                android:textColor="#333333"/>
+            <me.mi.milab.view.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:border_color="#ffff0000"
+                android:src="@mipmap/icon"/>
+            <me.mi.milab.view.MyView
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <me.mi.milab.view.TwoSemiCircleView
+                android:layout_marginTop="10dp"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="左右两半圆按钮"/>
+            <me.mi.milab.view.ButtonRectangle
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <me.mi.milab.view.Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:background="@drawable/round_corner_solid_ffff9500_stroke_fffcb925_radius_20"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

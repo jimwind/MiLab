@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/albums"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="0dp"
+        android:layout_marginTop="5dp"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@null"
+        android:numColumns="3"
+        android:padding="0dp"
+        android:scrollbars="none"
+        android:verticalSpacing="5dp" />
+
+
+
+</RelativeLayout>

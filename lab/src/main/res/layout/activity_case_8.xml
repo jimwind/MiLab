@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff4f4f4">
+    <me.mi.milab.view.SpreadView
+        android:id="@+id/spreadView"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:spread_center_color="@color/colorAccent"
+        app:spread_delay_milliseconds="35"
+        app:spread_distance="5"
+        app:spread_max_radius="90"
+        app:spread_radius="100"
+        app:spread_spread_color="@color/colorAccent" />
+    <me.mi.milab.view.StepArcView
+        android:id="@+id/srv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+    <me.mi.milab.view.piechart.PieView
+        android:id="@+id/pie_view"
+        android:layout_width="158dp"
+        android:layout_height="158dp"
+        android:layout_centerHorizontal="true" />
+    <me.mi.milab.view.TryView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
